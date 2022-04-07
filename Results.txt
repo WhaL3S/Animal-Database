@@ -1,0 +1,72 @@
+Animals (initial)
+Database: Animal Database 1
+------------------------------------------------------------------------------------------------------
+| Type      |       ID | Name       | Breed        | Birth Date   | Gender   | Vaccination | Aggressive |
+------------------------------------------------------------------------------------------------------
+| Dog       |      124 | Charlie    | Labrador     | 2014-02-28   | Male     |  2020-02-28 | False      |
+| Cat       |      223 | Bella      | Bengal       | 2018-02-03   | Female   |  2020-12-28 |            |
+| Dog       |      125 | Ruby       | Colie        | 2008-07-17   | Female   |  2019-01-15 | True       |
+| Cat       |      224 | Lucy       | Thai         | 2007-08-10   | Male     |  2020-08-08 |            |
+| Dog       |      320 | Buddy      | Poodle       | 2010-01-07   | Male     |  2019-09-19 | False      |
+| Dog       |      330 | Lai        | Bulldog      | 2011-01-07   | Male     |  2020-09-19 | True       |
+| Cat       |      225 | Kitty      | British      | 2020-07-03   | Female   |  2016-01-12 |            |
+| Dog       |      415 | Daisy      | Poodle       | 2014-07-07   | Female   |  2020-09-19 | True       |
+| Dog       |      123 | Wolfie     | Terrier      | 2014-01-01   | Male     |  2012-01-11 | True       |
+| Dog       |      955 | Charlie    | Poodle       | 2016-07-07   | Male     |  2013-11-20 | False      |
+| Cat       |      665 | Sam        | British      | 2020-07-03   | Male     |  2021-01-11 |            |
+| Cat       |      295 | Muse       | Bengal       | 2011-02-03   | Female   |  2019-01-22 |            |
+| GuineaPig |      489 | Afaf       | Bahbah       | 2020-02-03   | Female   |  0001-01-01 |            |
+| GuineaPig |      566 | Afaf       | Banban       | 2014-03-03   | Male     |  0001-01-01 |            |
+| GuineaPig |      409 | Afaf       | Banban       | 2016-04-03   | Female   |  0001-01-01 |            |
+------------------------------------------------------------------------------------------------------
+
+
+Two oldest animals in register:
+
+------------------------------------------------------------------------------------------------------
+| Type      |       ID | Name       | Breed        | Birth Date   | Gender   | Vaccination | Aggressive |
+------------------------------------------------------------------------------------------------------
+| Cat       |      224 | Lucy       | Thai         | 2007-08-10   | Male     |  2020-08-08 |            | 
+| Dog       |      125 | Ruby       | Colie        | 2008-07-17   | Female   |  2019-01-15 | True       | 
+------------------------------------------------------------------------------------------------------
+
+
+Animals that require vaccination
+------------------------------------------------------------------------------------------------------
+| Type      |       ID | Name       | Breed        | Birth Date   | Gender   | Vaccination | Aggressive |
+------------------------------------------------------------------------------------------------------
+| Dog       |      124 | Charlie    | Labrador     | 2014-02-28   | Male     |  2020-02-28 | False      |
+| Cat       |      223 | Bella      | Bengal       | 2018-02-03   | Female   |  2020-12-28 |            |
+| Dog       |      125 | Ruby       | Colie        | 2008-07-17   | Female   |  2019-01-15 | True       |
+| Cat       |      224 | Lucy       | Thai         | 2007-08-10   | Male     |  2020-08-08 |            |
+| Dog       |      320 | Buddy      | Poodle       | 2010-01-07   | Male     |  2019-09-19 | False      |
+| Dog       |      330 | Lai        | Bulldog      | 2011-01-07   | Male     |  2020-09-19 | True       |
+| Cat       |      225 | Kitty      | British      | 2020-07-03   | Female   |  2016-01-12 |            |
+| Dog       |      415 | Daisy      | Poodle       | 2014-07-07   | Female   |  2020-09-19 | True       |
+| Dog       |      123 | Wolfie     | Terrier      | 2014-01-01   | Male     |  2012-01-11 | True       |
+| Dog       |      955 | Charlie    | Poodle       | 2016-07-07   | Male     |  2013-11-20 | False      |
+| Cat       |      665 | Sam        | British      | 2020-07-03   | Male     |  2021-01-11 |            |
+| Cat       |      295 | Muse       | Bengal       | 2011-02-03   | Female   |  2019-01-22 |            |
+| GuineaPig |      489 | Afaf       | Bahbah       | 2020-02-03   | Female   |  0001-01-01 |            |
+| GuineaPig |      566 | Afaf       | Banban       | 2014-03-03   | Male     |  0001-01-01 |            |
+| GuineaPig |      409 | Afaf       | Banban       | 2016-04-03   | Female   |  0001-01-01 |            |
+------------------------------------------------------------------------------------------------------
+
+
+Number of aggressive dogs in animal database: 4 
+
+
+Animals that require special care
+------------------------------------------------------------------------------------------------------
+| Type      |       ID | Name       | Breed        | Birth Date   | Gender   | Vaccination | Aggressive |
+------------------------------------------------------------------------------------------------------
+| Dog       |      330 | Lai        | Bulldog      | 2011-01-07   | Male     |  2020-09-19 | True       |
+| Dog       |      125 | Ruby       | Colie        | 2008-07-17   | Female   |  2019-01-15 | True       |
+| Dog       |      320 | Buddy      | Poodle       | 2010-01-07   | Male     |  2019-09-19 | False      |
+| Cat       |      224 | Lucy       | Thai         | 2007-08-10   | Male     |  2020-08-08 |            |
+| Cat       |      295 | Muse       | Bengal       | 2011-02-03   | Female   |  2019-01-22 |            |
+| GuineaPig |      566 | Afaf       | Banban       | 2014-03-03   | Male     |  0001-01-01 |            |
+| GuineaPig |      409 | Afaf       | Banban       | 2016-04-03   | Female   |  0001-01-01 |            |
+------------------------------------------------------------------------------------------------------
+
+File: SpecialCare.csv created.
