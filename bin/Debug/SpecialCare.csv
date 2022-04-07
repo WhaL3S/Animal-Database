@@ -1,0 +1,8 @@
+ Type;    ID;Name      ;Breed       ;Birth Date;Gender  ;Vaccination;Aggressive;
+  Dog;     330;Lai       ;Bulldog     ;2011-01-07  ;Male    ;  2020-09-19;True     ;
+  Dog;     125;Ruby      ;Colie       ;2008-07-17  ;Female  ;  2019-01-15;True     ;
+  Dog;     320;Buddy     ;Poodle      ;2010-01-07  ;Male    ;  2019-09-19;False    ;
+  Cat;     224;Lucy      ;Thai        ;2007-08-10  ;Male    ;  2020-08-08;          ;
+  Cat;     295;Muse      ;Bengal      ;2011-02-03  ;Female  ;  2019-01-22;          ;
+GuineaPig;     566;Afaf      ;Banban      ;2014-03-03  ;Male    ;  0001-01-01;          ;
+GuineaPig;     409;Afaf      ;Banban      ;2016-04-03  ;Female  ;  0001-01-01;          ;
